@@ -1,0 +1,12 @@
+mysql-mysqli-remap.php
+remapping old style mysql_-functions to corresponding mysqli_-functions
+v 0.1 (alpha)
+
+Including this file before doing any database operations should make old
+mysql database operations (<= php 5.5) work with newer php (>= php 7).
+Including this file in older code should be safe as well, but your mileage
+may vary. All procedural. No warranty, PROVIDED AS IS. Do make db backups.
+
+btd@thin.no
+Thin AS (c) 2017
+www.thin.no
